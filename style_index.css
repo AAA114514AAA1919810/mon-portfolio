@@ -1,0 +1,72 @@
+main {
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.presentation{
+
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.presentation img {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #004080 ;
+}
+
+.grille2 {
+    display: grid;
+
+    grid-template-rows: 2vw 15vw;
+    /* repeat(3 , 100px) => trois ligne de haute    ur 100px */ 
+    grid-template-columns: 50vh 50vh;
+    gap: 10px; 
+    /* gap = distance entre bloc */
+    justify-content: center;
+    /* alignement vertical */
+    align-content: center;
+    /* alignement horizontal */
+}
+
+.grille2 div {
+    background-color: rgba(99, 133, 185, 0.663);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bloc1 {
+    grid-column: 1 ;
+    grid-row: 1 / span 2;
+}
+
+.grille {
+    display: grid;
+
+    grid-template-rows: 5vw 5vw;
+    /* repeat(3 , 100px) => trois ligne de hauteur 100px */ 
+    grid-template-columns: 30vh 30vh;
+    gap: 10px; 
+    /* gap = distance entre bloc */
+    justify-content: center;
+    /* alignement vertical */
+    align-content: center;
+    /* alignement horizontal */
+}
+
+.grille div {
+    background-color: rgba(99, 133, 185, 0.663);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

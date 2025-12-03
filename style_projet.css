@@ -1,0 +1,41 @@
+.projets {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.grille {
+    display: grid;
+    height: 20vw;
+    grid-template-rows: 2vw 15vw;
+    /* repeat(3 , 100px) => trois ligne de haute    ur 100px */ 
+    grid-template-columns: 50vh 50vh;
+    gap: 10px; 
+    /* gap = distance entre bloc */
+    justify-content: center;
+    /* alignement vertical */
+    align-content: center;
+    /* alignement horizontal */
+}
+
+.grille img {
+    width: 15vw;
+    height: auto;
+    border: 2px solid #004080 ;
+}
+
+.grille div {
+    background-color: rgba(99, 133, 185, 0.663);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.item1 {
+    grid-column: 1 ;
+    grid-row: 1 / span 2;
+}
