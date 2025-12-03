@@ -1,0 +1,40 @@
+:root {
+    /* Les couleurs */
+ --couleur-primaire: #d182385e;
+ --couleur-secondaire: #ffa726;
+ --couleur-texte: #333333;
+ --couleur-fond: #fffaf3;
+
+    /* Typhgraphie */
+
+ --police-principale: 'Poppins', 'sans-serif';
+ --police-titre: 'Monterret', 'sans-serif';
+
+    /* Emargement */
+ --padding-section: 40px;
+ --marge-elemnt: 20px;
+}
+
+:root[data-theme="dark"] {
+    /* Les couleurs */
+ --couleur-primaire: #ffa726;
+ --couleur-secondaire: #4e342e;
+ --couleur-texte: #f1f1f1;
+ --couleur-fond: #121212;
+}
+
+:root[data-theme="blue"] {
+    /* Les couleurs */
+ --couleur-primaire: #6099db65;
+ --couleur-secondaire: #90caf9;
+ --couleur-texte: #0d47a1;
+ --couleur-fond: #e3f2fd;
+}
+
+:root[data-theme="violet"] {
+    /* Les couleurs */
+ --couleur-primaire: #bb13e69d;
+ --couleur-secondaire: #c86de4;
+ --couleur-texte: #cb98df;
+ --couleur-fond: #e3f2fd;
+}
